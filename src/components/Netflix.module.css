@@ -1,0 +1,46 @@
+/* module.module.css */
+
+/* ✅ Card container styling with shadow */
+.card {
+  box-shadow: 
+    rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #fff;
+}
+
+/* ✅ Make images responsive */
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 0.5rem;
+}
+
+/* ✅ Heading spacing */
+.card-heading {
+  margin-bottom: 3.2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* ✅ Badge color variations */
+.super_hit {
+  background-color: #7dcea0; /* greenish */
+}
+
+.average {
+  background-color: #f7dc6f; /* yellowish */
+}
+
+/* ✅ Rating pill */
+.rating {
+  padding: 0.3rem 1.8rem;
+  color: #000;
+  margin-left: 1.2rem;
+  border-radius: 100rem;
+  font-weight: 500;
+  font-size: 1rem;
+  display: inline-block;
+}

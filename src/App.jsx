@@ -1,4 +1,5 @@
 
+import EventHandling from "./components/EventHandling.jsx";
 import Netflix from "./components/NetflixSeries.jsx";
 
 export const App = () => {
@@ -17,7 +18,14 @@ export const App = () => {
         <Netflix key="3" />,
         <Netflix key="4" />,]) */}
 
-      <Netflix />
+      {/* <Netflix /> */}
+      <EventHandling />
+     
+
+
+
+
+
     
     </div>
   );
